@@ -33,7 +33,7 @@ export default function Features() {
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">Lighting fast workflow</div>
                   <h3 className="h3 mb-3">Platforme modulare</h3>
                   <p className="text-xl text-gray-400 mb-4">Dezvoltam platforme si sisteme modulare, integrate cu API-uri deja existente sau pe care le dezvoltam la cerere. Integrari cu programe institutionale/licentiate.</p>
-                  <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
+                  <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1 mt-5">
                     <li className="flex items-center mx-2 my-1">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
@@ -66,13 +66,13 @@ export default function Features() {
                     </li>
                   </ul>
                   <div className="flex items-start mt-8">
-                    <Image className="rounded-full shrink-0 mr-4" src={FeatAvatar} width={40} height={40} alt="Features avatar" />
+                    {/* <Image className="rounded-full shrink-0 mr-4" src={FeatAvatar} width={40} height={40} alt="Features avatar" />
                     <div>
                       <blockquote className="text-gray-400 italic m-0 mb-3">"Am fost impresionați de platforma de gestiune dezvoltată. Este o soluție excelentă pentru gestionarea eficientă a activităților noastre zilnice și a întregului flux de lucru".</blockquote>
                       <div className="text-gray-700 font-medium">
                         <cite className="text-gray-200 not-italic">— Anastasia Dan</cite> - <span className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">UX Board</span>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

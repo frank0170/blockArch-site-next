@@ -19,10 +19,10 @@ export default function About() {
       <TeamImages />
       <Timeline />
       <Team />
-      <TestimonialsCarousel />
-      <Career />
+      {/* <TestimonialsCarousel />
+      <Career /> */}
       <Clients />
-      <Newsletter />
+      {/* <Newsletter /> */}
     </>
   )
 }

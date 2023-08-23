@@ -39,7 +39,7 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 {/* <Image className="rounded-full mb-4" src={TeamImage02} width={120} height={120} alt="Team member 02" /> */}
                 <h4 className="text-xl font-medium mb-1">Frank Andreas</h4>
-                <div className="text-gray-500 mb-1">CEO & Founder</div>
+                <div className="text-gray-500 mb-1">CTO & Founder</div>
                 {/* <a className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@marie_moon</a> */}
               </div>
             </div>

@@ -17,8 +17,8 @@ export default function Features() {
       <Stats />
       <Zigzag />
       <Blocks />
-      <CaseStudies />
-      <Cta />
+      {/* <CaseStudies />
+      <Cta /> */}
     </>
   )
 }
