@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+    title: 'Shop',
+    description: 'Page description',
+  }
+
 const page = () => {
   return (
     <section className="relative">
