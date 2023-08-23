@@ -61,26 +61,26 @@ export default function MobileMenu() {
       >
         <ul className="bg-gray-800 px-4 py-2">
           <li>
-            <Link href="/features" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              Features
+            <Link href="/" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/pricing" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              Pricing
+            <Link href="/servicii" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
+              Servicii
             </Link>
           </li>
           <li>
-            <Link href="/blog" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              Blog
+            <Link href="/despre-noi" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
+              Despre noi
             </Link>
           </li>
           <li>
-            <Link href="/about" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              About us
+            <Link href="/shop" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
+              Shop
             </Link>
           </li>
-          <li className="py-2 my-2 border-t border-b border-gray-700">
+          {/* <li className="py-2 my-2 border-t border-b border-gray-700">
             <span className="flex text-gray-300 py-2">Support</span>
             <ul className="pl-4">
               <li>
@@ -99,18 +99,18 @@ export default function MobileMenu() {
                 </Link>
               </li>
             </ul>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/signin" className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Sign in
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
-              href="/signup"
+              href="/contact-us"
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
-              Sign up
+              Contact
             </Link>
           </li>
         </ul>
