@@ -105,7 +105,7 @@ export default function SignUp() {
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
                   <a
-                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full"
+                  className="btn text-white bg-purple-600 hover:bg-purple-900 w-full rounded"
                     href={`mailto:consulting.staff@yahoo.com?subject=Contact&body=Nume:%20${name}%0A%0AEmail:%20${email}%0A%0ATelefon:%20${telefon}%0A%0AMesaj:%20${mesaj}`}
                   >
                       Contacteaza-ne
