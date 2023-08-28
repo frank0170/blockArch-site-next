@@ -10,6 +10,8 @@ export default function Timeline() {
             <p className="text-xl text-gray-400">Pentru noi, la BlockArch, si cele mai proaste idei pot deveni povesti de viata.</p>
           </div>
 
+          
+
           {/* Items */}
           <div className="max-w-3xl mx-auto -my-4 md:-my-6" data-aos-id-timeline>
 

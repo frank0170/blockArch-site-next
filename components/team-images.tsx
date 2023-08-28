@@ -23,6 +23,8 @@ export default function TeamImages() {
             <figure className="absolute h-auto" style={{ bottom: '0', right: '20%', width: '25.52%', maxWidth: '196px' }} data-aos="fade-up" data-aos-delay="300">
               <Image src={TeamMosaic04} width="196" height="196" alt="Team mosaic 04" />
             </figure>
+
+            
           </div>
         </div>
       </div>

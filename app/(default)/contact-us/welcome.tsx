@@ -106,7 +106,7 @@ export default function SignUp() {
                 <div className="w-full px-3">
                   <a
                   className="btn text-white bg-purple-600 hover:bg-purple-900 w-full rounded"
-                    href={`mailto:consulting.staff@yahoo.com?subject=Contact&body=Nume:%20${name}%0A%0AEmail:%20${email}%0A%0ATelefon:%20${telefon}%0A%0AMesaj:%20${mesaj}`}
+                    href={`mailto:frank@blockarch.ro?subject=Contact&body=Nume:%20${name}%0A%0AEmail:%20${email}%0A%0ATelefon:%20${telefon}%0A%0AMesaj:%20${mesaj}`}
                   >
                       Contacteaza-ne
                   </a>

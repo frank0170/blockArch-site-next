@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import TargetImage from '@/public/images/features-02-image.png'
+import Link from 'next/link'
 
 export default function Target() {
   return (
@@ -11,6 +12,19 @@ export default function Target() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2" data-aos="fade-up">From the big picture to every tiny detail, we got you covered.</h2>
           </div>
+
+
+                <a
+                  className="cursor-pointer  block rounded py-4 px-4 bg-blue text-white border-0"
+                  href='/assets/Brosura.pdf'
+
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
+                >
+
+                  <span className="ml-4 ">Download Invoice</span>
+                </a>
 
           {/* Items */}
           <div className="grid gap-20" data-aos-id-target>
