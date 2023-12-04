@@ -1,11 +1,9 @@
-import Link from 'next/link'
-import Dropdown from '@/components/utils/dropdown'
-import MobileMenu from './mobile-menu'
-import { BlockArchLogo } from '../svgs/logo'
+import Link from "next/link";
+import Dropdown from "@/components/utils/dropdown";
+import MobileMenu from "./mobile-menu";
+import { BlockArchLogo } from "../svgs/logo";
 
 export default function Header() {
-
-
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -14,7 +12,7 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             {/* Logo */}
             <Link href="/" className="block" aria-label="Cruip">
-<BlockArchLogo/>
+              <BlockArchLogo />
             </Link>
           </div>
 
@@ -27,13 +25,19 @@ export default function Header() {
                   Despre
                 </Link>
               </li> */}
-                            <li>
-                <Link href="/" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+              <li>
+                <Link
+                  href="/"
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/servicii" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link
+                  href="/servicii"
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >
                   Servicii
                 </Link>
               </li>
@@ -43,17 +47,31 @@ export default function Header() {
                 </Link>
               </li> */}
               <li>
-                <Link href="/despre-noi" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link
+                  href="/despre-noi"
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >
                   Despre noi
                 </Link>
               </li>
               <li>
-                <Link href="/shop" className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link
+                  href="/shop"
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >
                   Shop
                 </Link>
               </li>
-              {/* 1st level: hover */}
+              <li>
+                <Link
+                  href="/ajutor-4x4"
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Ajutor 4x4
+                </Link>
+              </li>
 
+              {/* 1st level: hover */}
             </ul>
 
             {/* Desktop sign in links */}
@@ -67,7 +85,10 @@ export default function Header() {
                 </Link>
               </li> */}
               <li>
-                <Link href="/contact-us" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link
+                  href="/contact-us"
+                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                >
                   Contact
                 </Link>
               </li>
@@ -75,9 +96,8 @@ export default function Header() {
           </nav>
 
           <MobileMenu />
-
         </div>
       </div>
     </header>
-  )
+  );
 }
