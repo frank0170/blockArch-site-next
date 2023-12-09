@@ -90,7 +90,7 @@ export default function SignUp() {
   const THREE_DAYS_IN_MS = 24 * 24 * 60 * 60 * 1000 - 2 * (60 * 60 * 1000);
   const NOW_IN_MS = new Date().getTime();
 
-  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
+  const dateTimeAfterThreeDays = 1703781253000;
 
   const images = [image1, image2, image3, image4];
 

@@ -32,6 +32,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated"
-  ],
+, "app/(default)/ajutor-4x4/hook.js"  ],
   "exclude": ["node_modules"]
 }

@@ -39,25 +39,19 @@ const PrevIcon = () => {
   );
 };
 
-// ... (PrevIcon and NextIcon components remain unchanged)
-
 const Gallery = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      // Check if the screen width is less than a certain threshold (e.g., 600px)
       setIsMobile(window.innerWidth < 600);
     };
 
-    // Add event listener for window resize
     window.addEventListener("resize", handleResize);
 
-    // Initial check on component mount
     handleResize();
 
-    // Remove event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
