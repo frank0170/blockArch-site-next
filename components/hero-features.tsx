@@ -48,15 +48,16 @@ export default function HeroFeatures() {
           {/* Content */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Keep track of every important detail
+              Dezvoltam solutii software pentru eficientizarea si automatizarea
+              afaceriilor
             </h1>
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Every feature in Smarty ERP makes things easy to build, pleasant
-              to create, and simple to manage.
+              Am dezvoltat in timp, diferite prouecte pe partea de mobile apps,
+              desktop apps cat si web apps si IoT clouds.
             </p>
           </div>
           {/* Image */}

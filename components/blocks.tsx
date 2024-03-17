@@ -5,12 +5,10 @@ export default function Blocks() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">
-              The majority our customers do not understand their workflows.
-            </h2>
+            <h2 className="h2 mb-4">Proiectare si software </h2>
             <p className="text-xl text-gray-400">
               Majoritatea clienților noștri nu înțeleg fluxurile lor de lucru.
-              Cu Smarty ERP, simplificăm această problemă, oferind o vizualizare
+              Ne straduim sa simplificăm această problemă, oferind o vizualizare
               clară și ușor de înțeles a proceselor lor, pentru a le ajuta să
               devină mai eficienți și să obțină rezultate mai bune.
             </p>
@@ -55,9 +53,9 @@ export default function Blocks() {
               </svg>
               <h4 className="h4 mb-2 text-center">Gestionarea Inventarului</h4>
               <p className="text-lg text-gray-400 text-center">
-                Permite urmărirea și gestionarea eficientă a stocurilor de
-                produse sau materiale, inclusiv actualizări în timp real și
-                notificări de reumplere.
+                Dezvoltam solutii software care permit urmărirea și gestionarea
+                eficientă a stocurilor de produse sau materiale, inclusiv
+                actualizări în timp real și notificări de activitate.
               </p>
             </div>
 
@@ -146,10 +144,10 @@ export default function Blocks() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2 text-center">Gestionează Resurse Umane</h4>
+              <h4 className="h4 mb-2 text-center">Platforme web</h4>
               <p className="text-lg text-gray-400 text-center">
-                Urmărește datele și activitățile legate de personal, inclusiv
-                programarea, gestionarea salariilor și evaluarea performanțelor.
+                Urmărește datele și activitățile, inclusiv programarea și
+                gestionarea resurselor prin diferite portaluri web.
               </p>
             </div>
 
@@ -194,8 +192,8 @@ export default function Blocks() {
                 Analiză și Rapoarte Avansate
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Furnizează capacitatea de a genera rapoarte personalizate și
-                analize pentru a lua decizii informate în timp real.
+                Dezvoltam solurii integrate cu AI pentru rapoarte si prospecte
+                cat mai avansate si precise.
               </p>
             </div>
 
@@ -235,9 +233,9 @@ export default function Blocks() {
               </svg>
               <h4 className="h4 mb-2">Colaborare Echipă</h4>
               <p className="text-lg text-gray-400 text-center">
-                Permite colaborarea și partajarea de informații între membrii
-                echipei sau departamente pentru a îmbunătăți comunicarea și
-                eficiența.
+                Ne axam pe eficientizarea și colaborarea de informații între
+                membrii echipei sau al departamentelor pentru a îmbunătăți
+                comunicarea și eficiența.
               </p>
             </div>
 
