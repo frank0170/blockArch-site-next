@@ -26,7 +26,7 @@ export default function HeroAbout() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Poveste din spatele proiectului
+              Povestea din spatele proiectului
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
