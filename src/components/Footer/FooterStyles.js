@@ -288,7 +288,7 @@ export const LinkList = styled.ul`
   
   @media ${props => props.theme.breakpoints.sm} {
     width: 100%;
-    padding: 32px 4px 16px;
+    padding: 32px 16px 16px;
     gap: 5px;
   }
 `;

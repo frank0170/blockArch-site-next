@@ -50,16 +50,16 @@ export const SectionTime = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
     grid-template-columns: 1fr; /* Single column */
-
+    margin-bottom: 2rem;
     /* Add more height and adjust padding */
-    min-height: 150vh; /* Adjusted height */
+    min-height: 120vh; /* Adjusted height */
     gap: 2rem; /* Ensure proper spacing */
   }
 
-  /* Responsive margin for the last child */
-  & > *:last-child {
-    margin-bottom: 3rem; /* Adjust margin to prevent overlap */
-  }
+
+  /* & > *:last-child {
+    margin-bottom: 0rem; 
+  } */
 
   /* @media (max-width: 390px) {
     min-height: 166vh;
@@ -82,7 +82,7 @@ export const SectionTime = styled.section`
 
   
 
-    @media (min-width: 362px) and (max-width: 400px) {
+    /* @media (min-width: 362px) and (max-width: 400px) {
       min-height: 150vh;
 
     }
@@ -100,7 +100,8 @@ export const SectionTime = styled.section`
     @media (min-width: 320px) and (max-width: 336px) {
       min-height: 170vh;
 
-    }
+    } */
+
 `
 
 // export const SectionTime = styled.section`

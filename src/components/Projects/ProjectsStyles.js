@@ -26,7 +26,7 @@ export const GridContainer = styled.section`
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    padding: 0rem;
     padding-bottom: 0;
     min-height: 100vh;
   }
@@ -94,7 +94,7 @@ export const CardInfo = styled.p`
   text-align: justify;
   
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 1rem; /* Increased padding for smaller devices */
+    padding: 16px; /* Increased padding for smaller devices */
     font-size: 1.4rem; /* Optional: Adjust font size for smaller screens */
   }
 `;

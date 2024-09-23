@@ -82,7 +82,7 @@ const Timeline = () => {
         ))}
       </TimelineContainer>
       <br />
-      <TimeDivider />
+      {/* <TimeDivider /> */}
     </SectionTime>
   );
 };
