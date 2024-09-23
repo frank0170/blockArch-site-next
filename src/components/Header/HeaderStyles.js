@@ -145,6 +145,7 @@ export const Container = styled.div`
 export const Div1 = styled.div`
   display: flex;
   align-items: center;
+  margin-left: 8px;
 `;
 
 // Div2: For Nav Links (Desktop)

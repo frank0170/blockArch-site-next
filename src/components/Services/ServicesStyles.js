@@ -203,6 +203,7 @@ export const TextWrapper = styled.div`
     font-size: 1.8rem;
     color: #d0d0d0;
   }
+
 `;
 
 export const ServiceDivider = styled.hr`

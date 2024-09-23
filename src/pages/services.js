@@ -38,19 +38,23 @@ const Services = () => {
   const textWrapperRef2 = useRef(null);
 
   useEffect(() => {
-    const createObserver = (ref) => {
-      return new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              createObserver(ref).unobserve(entry.target); // Stop observing once visible
-            }
-          });
-        },
-        { threshold: 0.5 } // Adjust as needed to control when the animation triggers
-      );
-    };
+    const isMobile = window.innerWidth <= 768;
+
+    // Only add animation on non-mobile devices
+    if (!isMobile) {
+      const createObserver = (ref) => {
+        return new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                createObserver(ref).unobserve(entry.target); // Stop observing once visible
+              }
+            });
+          },
+          { threshold: 0.5 } // Adjust as needed to control when the animation triggers
+        );
+      };
 
     // Create observers for each ref
     if (imageWrapperRef1.current) createObserver(imageWrapperRef1.current).observe(imageWrapperRef1.current);
@@ -65,7 +69,14 @@ const Services = () => {
       if (imageWrapperRef2.current) createObserver(imageWrapperRef2.current).disconnect();
       if (textWrapperRef2.current) createObserver(textWrapperRef2.current).disconnect();
     };
-  }, []);
+  } else {
+    // On mobile, make sure to show the content immediately without animation
+    if (imageWrapperRef1.current) imageWrapperRef1.current.classList.add('visible');
+    if (textWrapperRef1.current) textWrapperRef1.current.classList.add('visible');
+    if (imageWrapperRef2.current) imageWrapperRef2.current.classList.add('visible');
+    if (textWrapperRef2.current) textWrapperRef2.current.classList.add('visible');
+  }
+}, []);
 
     return (
       <Layout>
